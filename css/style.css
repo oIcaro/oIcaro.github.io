@@ -1,0 +1,237 @@
+html{
+   scroll-behavior: smooth;
+}
+
+/*CONTAINER*/
+
+body{
+  width: calc(100vw -  2px);
+  height: 100vh;
+}
+.container{ 
+    align-content: center;
+    background-color: #000000;
+    align-items: center;
+    width: calc(100vw -  2px);
+    max-width: calc(100vw -  2px);
+    margin:0;
+    padding: 0;
+}
+
+
+h1{
+	text-align: center;
+}
+
+/*SCROLLBAR*/
+
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+
+
+
+/*MENU*/
+
+  nav a{
+    font-family: 'roboto', sans-serif;
+    font-weight:500;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#FFFFFF;
+    margin:0 15px;
+    font-size:16px;
+    letter-spacing:1px;
+    position:relative;
+    display:inline-block;
+  }
+  nav a:hover {
+    color: white;
+    font-size: 20px;
+
+  }
+
+
+
+
+.menu{
+	background:rgba(154, 154, 154,  0.3);
+	opacity: 0,8;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 4vw;
+    position: fixed;
+    width: calc(100vw - 2px);
+}
+
+li{
+	display: inline;
+    font-family: 'roboto', sans-serif;
+}
+
+
+h1{
+	text-align: center;
+}
+
+
+/*INTRODUÇÃO*/
+
+.intro{
+	width: calc(100vw - 2px);
+
+    height: 100vh;
+    background: url(../img/img-intro.jpg);
+    background-repeat: no-repeat;
+    background-size: calc(100vw - 2px), 100vh;
+}
+
+.intro-h2{
+  padding-top: 200px;
+  padding-left: 12px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.intro-h3{
+	margin-top: 30px;
+    margin-left: 12px;
+    font-size: 35px;
+    color: white;
+    background-color: #660000;
+    border-radius: 5px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+
+
+/*SOBRE MIM*/
+
+.sobre{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100vw - 2px);
+    height: 100vh;
+    background: url(../img/img-sobre.jpg);
+    background-repeat: no-repeat;
+    background-size: calc(100vw - 2px), 100vh;
+}
+
+.sobre-h1{
+	margin-top: 100px;
+    margin-left: 12px;
+    font-family: Perpetua Titling MT , sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.text{
+	width: 50%;
+    align-content: center;
+    font-family: Footlight MT Light;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 80px;
+    border-radius: 20px;
+}
+
+
+/*PORTFÓLIO*/
+
+.port{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100vw - 2px);
+    height: 100vh;
+    background: url(../img/img-port.jpg);
+    background-repeat: no-repeat;
+    background-size: calc(100vw - 2px), 100vh;
+}
+
+.port-h1{
+	margin-top: 100px;
+    margin-left: 12px;
+    font-family: Perpetua Titling MT , sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+/*CONTATO*/
+
+.contato{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100vw - 2px);
+    height: 100vh;
+    background: url(../img/img-cont.jpg);
+    background-repeat: no-repeat;
+    background-size: calc(100vw - 2px), 100vh;
+}
+
+.cont-h1{
+	margin-top: 100px;
+    margin-left: 12px;
+    font-family: Perpetua Titling MT , sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.cont-h2{
+	font-family: Perpetua Titling MT , sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.text-final{
+	width: 50%;
+    align-content: center;
+    font-family: Eras Bold ITC , sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+}
